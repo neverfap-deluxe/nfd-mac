@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1D98D2822EC632A00CE0675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D98D2722EC632A00CE0675 /* AppDelegate.swift */; };
+		B1D98D2A22EC632A00CE0675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D98D2922EC632A00CE0675 /* ViewController.swift */; };
+		B1D98D2D22EC632A00CE0675 /* nfd_mac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1D98D2B22EC632A00CE0675 /* nfd_mac.xcdatamodeld */; };
+		B1D98D2F22EC632A00CE0675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D98D2E22EC632A00CE0675 /* Assets.xcassets */; };
+		B1D98D3222EC632A00CE0675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D98D3022EC632A00CE0675 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1D98D2422EC632A00CE0675 /* nfd-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nfd-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D98D2722EC632A00CE0675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1D98D2922EC632A00CE0675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1D98D2C22EC632A00CE0675 /* nfd_mac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nfd_mac.xcdatamodel; sourceTree = "<group>"; };
+		B1D98D2E22EC632A00CE0675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1D98D3122EC632A00CE0675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1D98D3322EC632A00CE0675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D98D3422EC632A00CE0675 /* nfd_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nfd_mac.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1D98D2122EC632A00CE0675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1D98D1B22EC632A00CE0675 = {
+			isa = PBXGroup;
+			children = (
+				B1D98D2622EC632A00CE0675 /* nfd-mac */,
+				B1D98D2522EC632A00CE0675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1D98D2522EC632A00CE0675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D98D2422EC632A00CE0675 /* nfd-mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1D98D2622EC632A00CE0675 /* nfd-mac */ = {
+			isa = PBXGroup;
+			children = (
+				B1D98D2722EC632A00CE0675 /* AppDelegate.swift */,
+				B1D98D2922EC632A00CE0675 /* ViewController.swift */,
+				B1D98D2E22EC632A00CE0675 /* Assets.xcassets */,
+				B1D98D3022EC632A00CE0675 /* Main.storyboard */,
+				B1D98D3322EC632A00CE0675 /* Info.plist */,
+				B1D98D3422EC632A00CE0675 /* nfd_mac.entitlements */,
+				B1D98D2B22EC632A00CE0675 /* nfd_mac.xcdatamodeld */,
+			);
+			path = "nfd-mac";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1D98D2322EC632A00CE0675 /* nfd-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D98D3722EC632A00CE0675 /* Build configuration list for PBXNativeTarget "nfd-mac" */;
+			buildPhases = (
+				B1D98D2022EC632A00CE0675 /* Sources */,
+				B1D98D2122EC632A00CE0675 /* Frameworks */,
+				B1D98D2222EC632A00CE0675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nfd-mac";
+			productName = "nfd-mac";
+			productReference = B1D98D2422EC632A00CE0675 /* nfd-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D98D1C22EC632A00CE0675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Julius Reade";
+				TargetAttributes = {
+					B1D98D2322EC632A00CE0675 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B1D98D1F22EC632A00CE0675 /* Build configuration list for PBXProject "nfd-mac" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1D98D1B22EC632A00CE0675;
+			productRefGroup = B1D98D2522EC632A00CE0675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1D98D2322EC632A00CE0675 /* nfd-mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1D98D2222EC632A00CE0675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D98D2F22EC632A00CE0675 /* Assets.xcassets in Resources */,
+				B1D98D3222EC632A00CE0675 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1D98D2022EC632A00CE0675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D98D2A22EC632A00CE0675 /* ViewController.swift in Sources */,
+				B1D98D2822EC632A00CE0675 /* AppDelegate.swift in Sources */,
+				B1D98D2D22EC632A00CE0675 /* nfd_mac.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1D98D3022EC632A00CE0675 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D98D3122EC632A00CE0675 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1D98D3522EC632A00CE0675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1D98D3622EC632A00CE0675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		B1D98D3822EC632A00CE0675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "nfd-mac/nfd_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "nfd-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nfd.nfd-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B1D98D3922EC632A00CE0675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "nfd-mac/nfd_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "nfd-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nfd.nfd-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1D98D1F22EC632A00CE0675 /* Build configuration list for PBXProject "nfd-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D98D3522EC632A00CE0675 /* Debug */,
+				B1D98D3622EC632A00CE0675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D98D3722EC632A00CE0675 /* Build configuration list for PBXNativeTarget "nfd-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D98D3822EC632A00CE0675 /* Debug */,
+				B1D98D3922EC632A00CE0675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B1D98D2B22EC632A00CE0675 /* nfd_mac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B1D98D2C22EC632A00CE0675 /* nfd_mac.xcdatamodel */,
+			);
+			currentVersion = B1D98D2C22EC632A00CE0675 /* nfd_mac.xcdatamodel */;
+			path = nfd_mac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B1D98D1C22EC632A00CE0675 /* Project object */;
+}
