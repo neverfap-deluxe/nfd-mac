@@ -15,6 +15,9 @@
 		D2E9E1DA22EE6DF500CBB4CB /* NFDText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9E1D922EE6DF500CBB4CB /* NFDText.swift */; };
 		D2E9E1DC22EE6E1000CBB4CB /* NFDAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9E1DB22EE6E1000CBB4CB /* NFDAudio.swift */; };
 		D2E9E1DE22EE6E3A00CBB4CB /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9E1DD22EE6E3A00CBB4CB /* WindowController.swift */; };
+		D2E9E1E122EE6EE900CBB4CB /* ContentAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9E1E022EE6EE900CBB4CB /* ContentAPIService.swift */; };
+		D2E9E1E322EE704200CBB4CB /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9E1E222EE704200CBB4CB /* DownloadService.swift */; };
+		D2E9E1E522EE70D200CBB4CB /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9E1E422EE70D200CBB4CB /* Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		D2E9E1D922EE6DF500CBB4CB /* NFDText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFDText.swift; sourceTree = "<group>"; };
 		D2E9E1DB22EE6E1000CBB4CB /* NFDAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFDAudio.swift; sourceTree = "<group>"; };
 		D2E9E1DD22EE6E3A00CBB4CB /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		D2E9E1E022EE6EE900CBB4CB /* ContentAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentAPIService.swift; sourceTree = "<group>"; };
+		D2E9E1E222EE704200CBB4CB /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		D2E9E1E422EE70D200CBB4CB /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 				D2E9E1D822EE6DD000CBB4CB /* Model */,
 				B1D98D2E22EC632A00CE0675 /* Assets.xcassets */,
 				B1D98D3322EC632A00CE0675 /* Info.plist */,
+				D2E9E1DF22EE6EC800CBB4CB /* Networking */,
 				D2E9E1D722EE6DC400CBB4CB /* Resources */,
 				B1D98D3422EC632A00CE0675 /* nfd_mac.entitlements */,
 				B1D98D2B22EC632A00CE0675 /* nfd_mac.xcdatamodeld */,
@@ -95,8 +102,18 @@
 			children = (
 				D2E9E1D922EE6DF500CBB4CB /* NFDText.swift */,
 				D2E9E1DB22EE6E1000CBB4CB /* NFDAudio.swift */,
+				D2E9E1E422EE70D200CBB4CB /* Download.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D2E9E1DF22EE6EC800CBB4CB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9E1E022EE6EE900CBB4CB /* ContentAPIService.swift */,
+				D2E9E1E222EE704200CBB4CB /* DownloadService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,11 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E9E1E522EE70D200CBB4CB /* Download.swift in Sources */,
 				B1D98D2A22EC632A00CE0675 /* ViewController.swift in Sources */,
+				D2E9E1E322EE704200CBB4CB /* DownloadService.swift in Sources */,
 				D2E9E1DE22EE6E3A00CBB4CB /* WindowController.swift in Sources */,
 				D2E9E1DA22EE6DF500CBB4CB /* NFDText.swift in Sources */,
 				B1D98D2822EC632A00CE0675 /* AppDelegate.swift in Sources */,
 				D2E9E1DC22EE6E1000CBB4CB /* NFDAudio.swift in Sources */,
+				D2E9E1E122EE6EE900CBB4CB /* ContentAPIService.swift in Sources */,
 				B1D98D2D22EC632A00CE0675 /* nfd_mac.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
