@@ -18,6 +18,7 @@
 		D2E9E1E122EE6EE900CBB4CB /* ContentAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9E1E022EE6EE900CBB4CB /* ContentAPIService.swift */; };
 		D2E9E1E322EE704200CBB4CB /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9E1E222EE704200CBB4CB /* DownloadService.swift */; };
 		D2E9E1E522EE70D200CBB4CB /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9E1E422EE70D200CBB4CB /* Download.swift */; };
+		D2E9E1E722EE86F400CBB4CB /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9E1E622EE86F400CBB4CB /* CollectionViewItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D2E9E1E022EE6EE900CBB4CB /* ContentAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentAPIService.swift; sourceTree = "<group>"; };
 		D2E9E1E222EE704200CBB4CB /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 		D2E9E1E422EE70D200CBB4CB /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		D2E9E1E622EE86F400CBB4CB /* CollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				B1D98D2722EC632A00CE0675 /* AppDelegate.swift */,
 				B1D98D2922EC632A00CE0675 /* ViewController.swift */,
 				D2E9E1DD22EE6E3A00CBB4CB /* WindowController.swift */,
+				D2E9E1E622EE86F400CBB4CB /* CollectionViewItem.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				D2E9E1E522EE70D200CBB4CB /* Download.swift in Sources */,
 				B1D98D2A22EC632A00CE0675 /* ViewController.swift in Sources */,
 				D2E9E1E322EE704200CBB4CB /* DownloadService.swift in Sources */,
+				D2E9E1E722EE86F400CBB4CB /* CollectionViewItem.swift in Sources */,
 				D2E9E1DE22EE6E3A00CBB4CB /* WindowController.swift in Sources */,
 				D2E9E1DA22EE6DF500CBB4CB /* NFDText.swift in Sources */,
 				B1D98D2822EC632A00CE0675 /* AppDelegate.swift in Sources */,
